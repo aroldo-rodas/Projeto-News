@@ -1,0 +1,297 @@
+/* Configurações gerais */
+body {
+    background-image: url(../imagens/fundo.png);
+    background-repeat: repeat-x;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Configurando o cabeçalho */
+header {
+    width: 750px;
+    height: 175px;
+    margin: 0 auto;
+    background-image: url(../imagens/detalhe-topo.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+div#menu {
+   padding-top: 20px;
+}
+
+h1#logo {
+    margin-top: 0px;
+    width: 152px;
+    height: 66px;
+    background-image: url(../imagens/logo.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+}
+
+ul a {
+    padding: 15px;
+    padding-right: 27px;
+    padding-left: 17px;
+    text-decoration: none;
+    background-color: #b10333;
+    color: #fff;
+    font-size: 14px;
+    background-image: url(../imagens/divisor.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+a#ultimo {
+    background-image: none;
+}
+
+a.selecionado {
+    background-color: #de003e;
+}
+
+ul a:hover {
+    color: #68001d;
+}
+
+/* Configurando corpo da página */
+main {
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+/* Principal 1*/
+div.principal-1{
+    width: 180px;
+    height: 655px;
+    float: left;
+}
+
+div#entrevistas {
+    background-image: url(../imagens/fundo-caixa.png);
+    padding-top: 2px;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 2px 5px;
+    display: block;
+    padding: 5px;
+    color: #fff;
+    background-color: #294c71;
+}
+ul#lista-entrevista {
+    display: block;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+a.a-entrevista {
+    background-color: #fff;
+    color: black;
+    background-image: none;
+    padding: 10px;
+    display: block;
+    margin-bottom: 1px;
+}
+
+a.a-entrevista:hover {
+    padding-left: 20px;
+    background-image: url(../imagens/marcador.png);
+    background-position: left;
+    color: #999;
+}
+
+div#caixa-email {
+    background-image: url(../imagens/fundo-caixa.png);
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+form {
+    width: 95%;
+    padding: 0px;
+    background-color: #fff;
+    margin: 0px auto;
+    
+}
+
+input#email {
+    font-size: 16px;
+    width: 90%;
+    padding: 3px;
+    
+}
+
+input#enviar {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #b10333;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+/* Principal 2*/
+div.principal-2 {
+    width: 270px;
+    height: 655px;
+    float: left;
+    margin-left: 15px;
+}
+
+div#destaque {
+    background-image: url(../imagens/fundo-caixa.png);
+    margin-top: 0px;
+    padding: 1px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    
+}
+
+h4 {
+    font-size: 14px;
+    display: flex;
+    font-weight: normal;
+    background-color: #b10333;
+    color: #fff;
+    padding: 2px;
+    width: 130px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+
+img.imagem-reportagem {
+    width: 94%;
+    border: 3px solid #dfdfdf;
+}
+
+p.descricao {
+    margin: 0px;
+    padding: 5px;
+    text-align: left;
+}
+
+a.link {
+    color: #b10333;
+    text-align: left;
+    display: block;
+    padding-left: 5px;
+}
+
+div.container-destaque {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    width: 98%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+div#destaque-mundo {
+    background-image: url(../imagens/fundo-caixa.png);
+    margin-top: 0px;
+    padding: 1px;
+    padding-bottom: 5px;
+}
+
+ul#lista-noticias {
+    display: block;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li.li-noticias {
+    padding: 2px;
+    height: 62px;
+    border-bottom: 1px solid #ccc;
+}
+
+a.link-noticias {
+    padding: 2px;
+    background-image: none;
+    background-color: #fff;
+    color: black;
+    text-align: left;
+    display: block;
+}
+
+a.link-noticias:hover {
+    background-color: #dfdfdf;
+}
+
+h5 {
+    color: #3e7ab9;;
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.8em;
+    display: inline;
+}
+
+img.imagem-noticias {
+    float: left;
+    margin: 5px;
+}
+
+p.p-noticias {
+    font-size: 0.7em;
+}
+
+div.principal-3 {
+    width: 270px;
+    height: 655px;
+    float: left;
+    margin-left: 15px;
+}
+
+div.clear {
+    clear: both;
+}
+
+/* Rodapé */
+footer {
+    clear: both;
+    height: 60px;
+    background-color: #294c71;
+    color: #fff;
+    margin-top: 15px;
+}
+
+div.rodape {
+    width: 750px;
+    margin: auto;
+}
+
+div.rodape p {
+    line-height: 60px;
+}
+
+
+/* Páginas secundárias */
+
+div.principal-2-brasil {
+    width: 555px;
+    height: 655px;
+    float: left;
+    margin-left: 15px;
+}
+
+footer.brasil {
+    margin-top: 170px;
+}
